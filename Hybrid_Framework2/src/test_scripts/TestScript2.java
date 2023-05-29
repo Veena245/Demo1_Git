@@ -19,7 +19,7 @@ public class TestScript2 extends Base_Test
 		p.pwd(pw);
 		p.btn();
 		Thread.sleep(2000);
-		
+		Assert.fail();
 	}
 
 }
